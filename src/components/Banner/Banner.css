@@ -1,0 +1,46 @@
+.light--secaoBanner {
+    height: 90vh;
+    display: flex;
+}
+
+#halfBanner {
+    width: 50%;
+    height: 100%;
+}
+
+.light--esquerda {
+    background-image: url('../../assets/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dark--esquerda {
+    background-image: url('../../assets/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--dark-secao-experiencia);
+}
+
+.light--direita {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 50px;
+    color: var(--light-titulo-principal);
+    background-color: var(--light-card-principal);
+}
+
+.light--direita h1 {
+    font-size: 0.8rem;
+}
+
+.light--direita p {
+    font-size: 3rem;
+}
+
+.light--direita p span {
+    font-weight: bold;
+}
